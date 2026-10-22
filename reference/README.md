@@ -6,7 +6,7 @@ Esta carpeta contiene plantillas de Spec Kit para explorar los principales artef
 
 | Plantilla | Propósito general |
 |---|---|
-| `constitution-template.md` | Definir principios y reglas del proyecto. |
+| `constitution-template.md` | Definir principios de programación y reglas del proyecto. |
 | `spec-template.md` | Estructurar la especificación de requisitos. |
 | `plan-template.md` | Organizar el plan de implementación y las decisiones técnicas. |
 | `task-template.md` | Descomponer el trabajo en tareas. |
