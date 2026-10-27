@@ -1,0 +1,14 @@
+{
+  "name": "curso-pswe-07",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test",
+    "lint": "node --check server.js && node --check src/application/task.js && node --check src/application/task-list.js && node --check src/application/task-details.js && node --check src/application/task-deletion.js && node --check src/persistence/task-store.js && node --check src/persistence/local-task-store.js && node --check src/ui/app.js && node --check src/ui/html.js && node --check src/ui/task-list.js && node --check src/ui/task-form.js && node --check src/ui/task-detail.js && node --check tests/unit/task-store.test.js && node --check tests/unit/task-list.test.js && node --check tests/unit/local-task-store.test.js && node --check tests/unit/task-details.test.js && node --check tests/unit/task-deletion.test.js && node --check tests/unit/server.test.js && node --check tests/acceptance/task-list.test.js && node --check tests/acceptance/task-details.test.js && node --check tests/acceptance/task-lifecycle.test.js"
+  }
+}

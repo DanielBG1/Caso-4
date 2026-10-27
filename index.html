@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f8f6">
+    <title>Curso-PSWE-07</title>
+    <link rel="stylesheet" href="./src/ui/styles.css">
+  </head>
+  <body>
+    <main id="app" class="app-shell" aria-live="polite"></main>
+    <script type="module">
+      import { startApp } from "./src/ui/app.js";
+
+      startApp({ root: document.querySelector("#app"), storage: window.localStorage });
+    </script>
+  </body>
+</html>
